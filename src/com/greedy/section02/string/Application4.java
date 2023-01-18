@@ -31,6 +31,7 @@ public class Application4 {
 		 * $ ^ * ( ) + | { } [ ] . ?
 		 * */
 		
+		
 		String str = "java/oracle/jdbc";
 		String[]sarr = str.split("/");
 		
