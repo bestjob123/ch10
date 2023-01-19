@@ -1,6 +1,7 @@
 package com.greedy.section05.calendar;
 
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class Application4 {
@@ -12,7 +13,16 @@ public class Application4 {
 		 * */
 		
 		Calendar gregorianCalendar =new GregorianCalendar();
-		System.out.println(gregorianCalendar);
+//		System.out.println(gregorianCalendar);
+		
+		int sumDay =0;
+		for(int i =0;i<2023;i++) {
+			Calendar calendar = new GregorianCalendar(i,11,31);
+		
+			sumDay += calendar.get(Calendar.DAY_OF_YEAR);
+		}
+		sumDay += Calendar.getInstance().get(Calendar.DAY_OF_YEAR);
+		System.out.println(sumDay);
 		
 		
 	}
