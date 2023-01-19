@@ -17,7 +17,7 @@ public class Application2 {
 		double d = Double.parseDouble("8.0");
 		boolean bl = Boolean.parseBoolean("TRUE");
 
-		System.out.println(bl);
+		char c = "abc".charAt(0);
 	}
 
 }
